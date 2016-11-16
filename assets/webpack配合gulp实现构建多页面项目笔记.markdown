@@ -226,8 +226,8 @@ gulp.task('dev', [ 'build-js','browser-sync','copy:images','sass','watch']);
 
 ```
 
-package.json文件：
-
+package.json文件：<br/>
+用于生产环境时，再执行一遍 ```npm build```
 ```
 {
   "name": "nsyc",
