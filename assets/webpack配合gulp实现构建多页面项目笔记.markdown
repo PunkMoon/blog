@@ -31,8 +31,9 @@ md之前在网上找前端模块化以及自动化构建的解决方案，大多
 出口文件在根目录```dist```下.
 ## 页面配置
 * css合并为一个文件，在head内通过link标签引入
-## webpack配置
 * 在body底部引入公共js文件以及页面对应的出口文件
+
+## webpack配置
 ```
 var path=require('path');
 var webpack=require('webpack');
@@ -225,7 +226,7 @@ gulp.task('dev', [ 'build-js','browser-sync','copy:images','sass','watch']);
 
 ```
 
-```package.json```文件：
+package.json文件：
 
 ```
 {
