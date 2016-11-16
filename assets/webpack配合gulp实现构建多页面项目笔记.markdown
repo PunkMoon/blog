@@ -1,4 +1,4 @@
-之前在网上找前端模块化以及自动化构建的解决方案，大多主要是针对单页面的，而且介绍的也很浅显，后来找到这篇博客[gulp + webpack 构建多页面前端项目](https://github.com/fwon/blog/issues/17)，然后在他的基础上针对自己项目做了修改和优化，并加上适当的注释，方便理解，在此对原作者表示感谢。
+md之前在网上找前端模块化以及自动化构建的解决方案，大多主要是针对单页面的，而且介绍的也很浅显，后来找到这篇博客[gulp + webpack 构建多页面前端项目](https://github.com/fwon/blog/issues/17)，然后在他的基础上针对自己项目做了修改和优化，并加上适当的注释，方便理解，在此对原作者表示感谢。
 ## 项目结构
 入口文件放在根目录```src```：
 ```
@@ -120,7 +120,6 @@ module.exports={
      })
   ]
 };
-
 ```
 ## gulp配置
 gulp这一部分主要任务是实现css压缩合并、修改文件后自动刷新、自动生成精灵图等功能。
@@ -228,7 +227,8 @@ gulp.task('dev', [ 'build-js','browser-sync','copy:images','sass','watch']);
 
 ```package.json```文件：
 
-```{
+```
+{
   "name": "nsyc",
   "version": "1.0.0",
   "description": "",
@@ -261,6 +261,8 @@ gulp.task('dev', [ 'build-js','browser-sync','copy:images','sass','watch']);
     "webpack-dev-server": "^1.16.2",
     "webpack-zepto": "0.0.1"
   }
-}```
+}
+```
+
 ## 不足
 原本想webpack任务和gulp任务单独运行的，webpack监听js，gulp监听HTML和css文件，但是devServer与gulp的browser-sync在引用js时有冲突，研究了一段事件也没找到好的解决方案，所以每次js变化都会重新打包一次。希望后面能继续优化吧。
