@@ -4,7 +4,7 @@
 
 一般HTTP请求在service中完成，因此需要在service中封装一个公共方法用来获取数据。
 
-```service.ts```
+> service.ts
 
 ```
 import {Injectable} from '@angular/core';
@@ -77,7 +77,7 @@ angular的http.get返回的是一个 *RxJS `Observable* ，需要使用一个t
 
 用法：(可以与上面的Promise进行对照)
 
-```service.ts	```
+> service.ts
 
 ```
 getData(sendData:Object,method:string):Observable<any>{
@@ -88,7 +88,8 @@ getData(sendData:Object,method:string):Observable<any>{
 	}
 ```
 
-```component```
+> component
+>
 
 ```
 this.dataService.getData(sendData)
@@ -98,6 +99,7 @@ this.dataService.getData(sendData)
   			console.log(err);
   		});
   	}
+
 ```
 
 
