@@ -102,7 +102,9 @@ this.dataService.getData(sendData)
 
 ```
 
+> pipe
 
+pipe相当于angular1中的filter,用法也和filter差不多，要注意的是自定义的pipe必须注入到AppModule的declarations中，angular默认提供的pipe不需要这一步。
 
 
 
