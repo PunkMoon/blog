@@ -5,3 +5,4 @@
   * Angular2 学习笔记
     * [service](https://github.com/birdplane9527/blog/issues/3)
     * [http](https://github.com/birdplane9527/blog/issues/4)
+  * [Angular2中将cordova获取到的照片上传](https://github.com/birdplane9527/blog/issues/5)
