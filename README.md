@@ -6,3 +6,10 @@
     * [service](https://github.com/birdplane9527/blog/issues/3)
     * [http](https://github.com/birdplane9527/blog/issues/4)
   * [Angular2中将cordova获取到的照片上传](https://github.com/birdplane9527/blog/issues/5)
+
+* 备忘
+
+  * [Mac 配置git 自动补全]: 
+
+    ​
+
