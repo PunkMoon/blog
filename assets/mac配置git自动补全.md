@@ -1,6 +1,6 @@
 ## mac配置git自动补全
 
-### 安装homebew
+### 安装homebrew
 
 如果事先没有安装homebrew,执行命令
 
