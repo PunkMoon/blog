@@ -39,6 +39,7 @@
 * Gulpfile.js
 
   ```
+   var grapher = require('sass-graph')；
    var importPaths=require('./config.json').importPaths;
    var importFolders=grapher.parseDir('./sass',['scss']);
    gulp.task('importWatch',function(){
