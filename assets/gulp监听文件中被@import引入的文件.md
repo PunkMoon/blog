@@ -5,7 +5,7 @@
 
 ### 寻找解决方案
 
-网上一通搜索，最后通过google **watch scss import file** 这些关键字找到了 [Watch for changes in imported files as well](https://github.com/sass/node-sass/issues/700)，然后按图索骥找到了 [Use sass-graph for accurate sass watching](Use sass-graph for accurate sass watching) 。最后就是用**sass-graph** 这个插件获取到目录内文件的依赖关系。如下：
+网上一通搜索，最后通过google **watch scss import file** 这些关键字找到了 [Watch for changes in imported files as well](https://github.com/sass/node-sass/issues/700)，然后按图索骥找到了 [Use sass-graph for accurate sass watching](https://github.com/sass/node-sass/pull/629) 。最后就是用**sass-graph** 这个插件获取到目录内文件的依赖关系。如下：
 
 ```
 { index: {,
