@@ -7,6 +7,7 @@
     * [service](https://github.com/PunkMoon/blog/issues/3)
     * [http](https://github.com/PunkMoon/blog/issues/4)
   * [Angular2中将cordova获取到的照片上传](https://github.com/PunkMoon/blog/issues/5)
+  * [解决IOS11光标错位的问题](https://github.com/PunkMoon/blog/issues/8)
 * 备忘
   *  [mac配置git自动补全](https://github.com/PunkMoon/blog/issues/6)
 
