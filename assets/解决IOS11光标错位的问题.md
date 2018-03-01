@@ -2,6 +2,8 @@
 
 在ios11系统中模态框如果使用fixed定位，input在输入的时候会出现光标错位的问题。
 
+![](http://ww1.sinaimg.cn/large/6d691ee6ly1foxfr1krdog20af0fvjyy.gif)
+
 之所以会有这个 bug 是因为，当输入框获取焦点弹出输入法时，浏览器向下移动页面，导致光标不跟随焦点。
 
 有人已经给苹果提了提了[bug](https://bugs.webkit.org/show_bug.cgi?id=176896) ，不过截止到11.2.1中仍然没有解决。
