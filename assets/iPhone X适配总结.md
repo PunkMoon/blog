@@ -85,8 +85,8 @@ padding-bottom: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
 
 ## 参考
 
-[网页适配 iPhoneX，就是这么简单](https://aotu.io/notes/2017/11/27/iphonex/index.html)
+* [网页适配 iPhoneX，就是这么简单](https://aotu.io/notes/2017/11/27/iphonex/index.html)
 
-[Designing Websites for iPhone X](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)]
+* [Designing Websites for iPhone X](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)]
 
-[Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/)
+* [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/)
