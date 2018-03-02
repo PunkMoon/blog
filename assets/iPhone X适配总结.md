@@ -14,9 +14,9 @@
 
 通过对meta标签viewport的扩展，可以调整页面的展现区域。viewport-fit有三个可选值：
 
-- contain： 使页面展示在安全区域内。
-- cover： 使页面占满屏幕。
-- auto： 和 contain 选项表现一样
+* contain： 使页面展示在安全区域内。
+* cover： 使页面占满屏幕。
+* auto： 和 contain 选项表现一样
 
 ## env() 和 constant()
 
@@ -87,6 +87,6 @@ padding-bottom: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
 
 * [网页适配 iPhoneX，就是这么简单](https://aotu.io/notes/2017/11/27/iphonex/index.html)
 
-* [Designing Websites for iPhone X](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)]
+* [Designing Websites for iPhone X](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)
 
 * [Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/)
