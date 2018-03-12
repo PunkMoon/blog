@@ -11,5 +11,6 @@
   * [iPhone X适配总结](https://github.com/PunkMoon/blog/issues/9)
 * 备忘
   *  [mac配置git自动补全](https://github.com/PunkMoon/blog/issues/6)
+  *  [[华硕AC68U+梅林固件]折腾记](https://github.com/PunkMoon/blog/issues/10)
 
 
