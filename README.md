@@ -1,6 +1,7 @@
 # blog
 ## 目录
 * 笔记
+  * [提高Javascript性能总结](https://github.com/PunkMoon/blog/issues/11)
   * [webpack配合gulp构建多页面项目笔记](https://github.com/PunkMoon/blog/issues/2)
   * [gulp监听文件中被@import引入的文件](https://github.com/PunkMoon/blog/issues/7)
   * Angular2 学习笔记
