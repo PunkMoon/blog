@@ -13,5 +13,6 @@
 * 备忘
   *  [mac配置git自动补全](https://github.com/PunkMoon/blog/issues/6)
   *  [[华硕AC68U+梅林固件]折腾记](https://github.com/PunkMoon/blog/issues/10)
+  *  [注销新浪微博简易指南](https://github.com/PunkMoon/blog/issues/11)
 
 
